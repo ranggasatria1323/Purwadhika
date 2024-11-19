@@ -4,16 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise</title>
+    <style>
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+        .head {
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+        }
+        .body {
+            display: flex;
+            justify-content: center;
+            font-size: 40px;
+        }
+        .button{
+            color: antiquewhite;
+            display: flex;
+            justify-content: center;
+        }
+        
+        button {
+            display: flex;
+            align-items: center;
+            background-color: rgb(80, 127, 230);
+            padding: 18px 50px;
+            border-radius: 10px;
+            margin: 5px;
+            margin-left: 5px;
+        }
+
+        button:hover {
+            scale: 1.2;
+        }
+
+        a[href] {
+            color: beige;
+            text-decoration: none;
+            }
+    </style>
 </head>
 <body>
-    <nav>
-        <form>
+    <div class="row">
+        <div class="image">
             <div>
-                <h1><center>Purwadhika</center></h1>
-                <hr>
-                <a link href="./exercise.html">Home</a> | <a link href="./service.html">Service</a>
+                <img height="260" width="1260" 20px src="https://png.pngtree.com/thumb_back/fw800/background/20240416/pngtree-summer-beach-web-banner-image_15715737.jpg">
             </div>
-        </form>
-    </nav>
+            <div class="head">
+                <h1>Beautiful!</h1>
+            </div>
+            <div class="body">
+                Modal with a custom image
+            </div>
+            <div class="button">
+                <a href="./exercise2.html"><button>Lovely!</button></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
